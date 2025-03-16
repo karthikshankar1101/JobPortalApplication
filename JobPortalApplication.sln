@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortalAPI", "JobPortalAPI\JobPortalAPI.csproj", "{B6018133-ADB0-47C8-8A21-BA0BCDBE7519}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobPortal.API", "JobPortalAPI\JobPortal.API.csproj", "{B6018133-ADB0-47C8-8A21-BA0BCDBE7519}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobPortal.Data", "JobPortal.Data\JobPortal.Data.csproj", "{7C39166E-2316-4D55-8E12-15309A16C462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortal.Business", "JobPortal.Business\JobPortal.Business.csproj", "{C4E5EEFB-638A-4090-B969-B1E85850907A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B6018133-ADB0-47C8-8A21-BA0BCDBE7519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6018133-ADB0-47C8-8A21-BA0BCDBE7519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6018133-ADB0-47C8-8A21-BA0BCDBE7519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C39166E-2316-4D55-8E12-15309A16C462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C39166E-2316-4D55-8E12-15309A16C462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C39166E-2316-4D55-8E12-15309A16C462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C39166E-2316-4D55-8E12-15309A16C462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E5EEFB-638A-4090-B969-B1E85850907A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E5EEFB-638A-4090-B969-B1E85850907A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E5EEFB-638A-4090-B969-B1E85850907A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E5EEFB-638A-4090-B969-B1E85850907A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
